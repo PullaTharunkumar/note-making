@@ -1,0 +1,28 @@
+.note-input {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #555;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .note-title,
+  .note-content {
+    background-color: #333;
+    border: none;
+    padding: 5px;
+    color: white;
+    border-radius: 3px;
+  }
+  
+  .add-note-button {
+    align-self: flex-end;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  

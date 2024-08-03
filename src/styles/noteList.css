@@ -1,0 +1,37 @@
+.note-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .notes {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+  
+  .note {
+    background-color: #444;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    white-space: pre-wrap;
+    gap: 10px;
+  }
+  
+  .note h3,
+  .note p {
+    margin: 0;
+  }
+  
+  .note button {
+    align-self: flex-start;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
